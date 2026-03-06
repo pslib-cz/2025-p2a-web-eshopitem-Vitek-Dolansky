@@ -44,21 +44,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-facebook:before {
-  content: "\ea90";
-}
-.icon-instagram:before {
-  content: "\ea92";
-}
-.icon-spotify:before {
-  content: "\ea94";
-}
-.icon-twitter:before {
-  content: "\ea96";
-}
-.icon-youtube:before {
-  content: "\ea9d";
-}
 
 
 body {
@@ -120,8 +105,7 @@ a {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
+  
 }
 
 .card__image {
