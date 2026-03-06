@@ -100,10 +100,12 @@ a {
 .shop__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
 }
 
-.card {}
+.card {
+  display: grid;
+  grid-template-rows: subgrid;
+}
 
 .image-link {
   display: block;
